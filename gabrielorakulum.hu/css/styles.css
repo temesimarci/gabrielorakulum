@@ -691,12 +691,13 @@ dd{
 	}
 
 #idopont {
-	width:240px;
-	height:44px;
+	padding: 10px 20px;
 	box-sizing:border-box;
 	background-color:#ddd507;
-	display:block;
-	margin:40px auto 0 auto;
+	display:inline-block;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
 	border-radius:22px;
 	color:#10222b;
 	font-family: 'ralewaysemibold';
@@ -717,11 +718,6 @@ dd{
 
 .none{
 	text-decoration:none;
-	}
-
-.none2{
-	text-decoration:none;
-	color:#10222b;
 	}
 
 .phones2 {
