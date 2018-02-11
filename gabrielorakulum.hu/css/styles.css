@@ -275,11 +275,7 @@ p.addinfo {
 	font-size:1em;
 	line-height:142%;
 	color:#10222b;
-	display:block;
 	text-align:center;
-	padding-top:30px;
-	width:760px;
-	margin:0 100px 0 100px;
 	}
 
 .josvonal1{
@@ -290,7 +286,6 @@ p.addinfo {
 	float:left;
 	background-repeat:no-repeat;
 	background-position:center;
-	padding-bottom:60px;
 	}
 
 .strong{
@@ -768,90 +763,12 @@ h1.lightmid{
 	}
 
 .formholder {
-	width:480px;
+	width: 100%;;
 	box-sizing:border-box;
 	padding-left:40px;
 	padding-right:40px;
-		display:inline-block;
+	display:inline-block;
 	}
-
-[type="text"],[type="email"]{
-	width:100%;
-	display:block;
-	height:44px;
-	background-color:#f0f3f3;
-	border-radius:4px;
-	font-family: 'ralewayregular';
-	font-size:1.000em;
-	line-height:144%;
-	color:#10222b;
-	appearance:none;
-	border:none;
-	margin-bottom:16px;
-	padding-left:16px;
-	box-sizing:border-box;
-	}
-
-textarea{
-	width:100%;
-	display:block;
-	height:140px;
-	background-color:#f0f3f3;
-	border-radius:4px;
-	font-family: 'ralewayregular';
-	font-size:1.000em;
-	line-height:144%;
-	color:#10222b;
-	appearance:none;
-	border:none;
-	margin-bottom:16px;
-	padding-left:16px;
-	padding-top:16px;
-	box-sizing:border-box;
-	vertical-align: top;
-	}
-
-.send {
-	width:100%;
-	display:block;
-	height:44px;
-	background-color:#ddd507;
-	border-radius:4px;
-	font-family: 'ralewaysemibold';
-	font-size:1.000em;
-	line-height:144%;
-	color:#10222b;
-	appearance:none;
-	border:none;
-	box-sizing:border-box;
-	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
-	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
-	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
-	transition: background-color 0.5s ease;
-	cursor:pointer;
-	}
-
-.send:hover {
-	background-color:#f0e70c;
-
-
-	}
-
-::-webkit-input-placeholder {
-   color: #10222b;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   color: #10222b;
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #10222b;
-}
-
-:-ms-input-placeholder {
-   color: #10222b;
-}
 
 h3.white {
 	font-family: 'ralewayextrabold';
@@ -864,14 +781,20 @@ h3.white {
 	margin-bottom:24px;
 	}
 
-.contactinfo {
+.contactinfo-primary {
 	width:480px;
 	box-sizing:border-box;
 	padding-right:40px;
 	padding-left:40px;
-	float:right;
 	display:inline-block;
+	}
 
+	.contactinfo-primary--left {
+		float: left;
+	}
+
+	.contactinfo-primary--right {
+		float: right;
 	}
 
 .hanna {
@@ -890,6 +813,7 @@ h3.white {
 	display:block;
 	text-align:left;
 	float:left;
+	padding-top:25px;
 	margin-left:10px;
 	width:200px;
 
@@ -922,46 +846,6 @@ h3.white {
 	text-align:center;
 
 	}
-
-.facebook2 {
-	width:180px;
-	display:inline-block;
-	height:44px;
-	background-color:#3b5998;
-	border-radius:4px;
-	font-family: 'ralewayregular';
-	font-size:1.000em;
-	line-height:144%;
-	color:#fff;
-	border:none;
-	box-sizing:border-box;
-	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
-	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
-	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
-	margin-top:40px;
-	margin-right:20px;
-	cursor:pointer;
-}
-
-.linkedin2 {
-	width:180px;
-	display:inline-block;
-	height:44px;
-	background-color:#0077b5;
-	border-radius:4px;
-	font-family: 'ralewayregular';
-	font-size:1.000em;
-	line-height:144%;
-	color:#fff;
-	border:none;
-	box-sizing:border-box;
-	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
-	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
-	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
-	margin-top:40px;
-	cursor:pointer;
-
-}
 
 .parkolas {
 	font-family: 'ralewayregular';
