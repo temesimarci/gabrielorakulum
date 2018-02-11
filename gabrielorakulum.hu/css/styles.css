@@ -39,6 +39,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	font-family: 'ralewayregular',Helvetica,Arial,Sans-serif;
+	box-sizing: border-box;
+	width: 100vw;
+	height: 100%;
 }
 ol, ul {
 	list-style: none;
@@ -86,7 +89,8 @@ li.mainnav3 {
 	}
 
 section.headline {
-	width:100%;
+	min-width:100%;
+	background-size: contain;
 	height:650px;
 	display:block;
 	background-color:#003854;
@@ -110,8 +114,6 @@ nav.headline {
 	float:left;
 	height:87px;
 	}
-
-
 
 .maincol {
 	width:960px;
@@ -207,7 +209,8 @@ h2.whitemid {
 
 
 .szolgaltatas{
-	width:100%;
+	min-width:100%;
+	background-size: cover;
 	height:auto;;
 	display:block;
 	background-color:#f0f3f3;
@@ -279,7 +282,8 @@ p.addinfo {
 	}
 
 .josvonal1{
-	width:100%;
+	min-width:100%;
+	background-size: cover;
 	height:auto;;
 	display:block;
 	background-color:#f8fcfc;
@@ -621,7 +625,8 @@ dd{
 	}
 
 .szemelyesjoslas {
-	width:100%;
+	min-width:100%;
+	background-size: cover;
 	height:auto;;
 	display:block;
 	background-color:#f0f3f3;
@@ -739,7 +744,8 @@ h1.lightmid{
 	}
 
 .footer {
-	width:100%;
+	min-width:100%;
+	background-size: cover;
 	height:auto;;
 	display:block;
 	background-color:#003854;
@@ -832,12 +838,6 @@ h3.white {
 	margin-top:0;
 	width:200px;
 
-}
-
-.inline_buttons {
-	height:44px;
-	display:inline-block;
-	width:100%;
 }
 
 #SkypeButton_Call_gabrielorakulum_1 {
