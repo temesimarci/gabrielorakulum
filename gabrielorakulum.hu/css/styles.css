@@ -4,6 +4,23 @@
 * {
 margin: 0;
 padding: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
 border: 0;
 font-size: 100%;
 font: inherit;
@@ -114,14 +131,14 @@ h1.whitemid {
 	margin:0 100px 0 100px;
 	}
 
-h2.whitemid {
+p.whitemid {
 	font-family: 'ralewayregular';
-	font-size:0.925em;
+	font-size:1em;
 	line-height:150%;
 	color:#f0f3f3;
 	display:block;
 	text-align:center;
-	padding-top:40px;
+	padding-top:30px;
 	width:960px;
 	margin:0 0 0 0;
 	}
@@ -199,8 +216,8 @@ h2.whitemid {
 	}
 
 .autopad {
-	padding-top:80px;
-	padding-bottom:60px;
+	padding-top:60px;
+	padding-bottom:40px;
 	}
 
 h1.darkmid {
@@ -223,21 +240,6 @@ h2.midtext {
 	padding-top:40px;
 	width:760px;
 	margin:0 100px 0 100px;
-	}
-
-li.services{
-	font-family: 'ralewaysemibold';
-	font-size:1.000em;
-	line-height:180%;
-	color:#10222b;
-	display:inline-block;
-	float:left;
-	text-align:left;
-	margin-top:40px;
-	margin-bottom:25px;
-	width:33.333%;
-	box-sizing:border-box;
-	padding:0 10px 0 10px;
 	}
 
 h2.midtext2 {
@@ -330,12 +332,9 @@ p.addinfo {
 
 .numberCircle {
     border-radius: 50%;
-    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
-
     width: 30px;
     height: 30px;
     padding: 8px;
-
     background: #ddd507;
     border: none;
     color: #10222b;
@@ -497,13 +496,37 @@ h3 {
 	flex-wrap: wrap;
 }
 
+.services { 
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	height: 100%;
+	width: 100%;
+	flex-wrap: wrap;
+	margin: 20px 0 30px 0;
+	
+}
+
+.service {
+	font-family: 'ralewaysemibold';
+	font-size:1.000em;
+	line-height:180%;
+	color:#10222b;
+	display:block;
+	float:left;
+	text-align:left;
+	margin-top:5px;
+	width:33.333%;
+	box-sizing:border-box;
+}
+
 .pay-primary {
 	width:33.33%;
 	float:left;
 	padding:0 10px 34px 10px;
 	margin-top:50px;
 	box-sizing: border-box;
-	}
+}
 
 .pay-primary--left {
 	border-right: solid 1px #ddd507;
@@ -791,7 +814,6 @@ h3.white {
 
 .hanna {
 	width:126px;
-	height:126px;
 	float:left;
 	display:inline-block;
 	margin-right:16px;
@@ -805,7 +827,6 @@ h3.white {
 	display:block;
 	text-align:left;
 	float:left;
-	padding-top:20px;
 	margin-left:10px;
 	width:200px;
 
