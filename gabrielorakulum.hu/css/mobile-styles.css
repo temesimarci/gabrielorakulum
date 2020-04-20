@@ -1,0 +1,80 @@
+@media only screen and (max-width : 480px) {
+
+    .logotop {
+        display:block;
+        width: 100%;
+        height:auto;
+        padding:16px 10% 0 10%;
+        box-sizing: border-box;
+        }
+
+    li.mainnav {
+        font-family: 'ralewayregular';
+        font-size:1rem;
+        color:#f0f3f3;
+        box-sizing: border-box;
+        width: 100%;
+        text-align:center;
+        padding-top:20px;
+        margin: 0;
+        display:block;
+        }
+
+    .service { 
+        width:100%;
+    }
+
+    .card{
+        width: 100%;
+        }
+
+    .column__list-item {
+        width:100%;
+        padding:0 0 34px 0;
+        margin-top:34px;
+    }
+
+    .column__list-item:not(:last-child) {
+        border-right: none;
+        border-bottom: solid 1px #ccc;
+    }
+
+    .felora {
+        width:100%;
+        margin-top:10px;
+        margin-bottom:10px;
+        }
+    
+    .egyora {
+        width:100%;
+        }
+
+    .contactinfo-primary {
+        width:100%;
+        }
+    
+    .contactinfo-primary--left {
+        padding-right: 0;
+    }
+
+    .hanna {
+        max-width: 50%;
+    }
+
+    h1.whitemid {
+        padding-top:40px;
+        font-size: 2rem;
+        }
+
+    h1.lightmid {
+        font-size: 1.5rem;
+        line-height: 132%;
+        margin: 0;
+    }
+
+    .felora:not(:last-child) {
+        border-right: none;
+        border-bottom: solid 1px #ccc;
+    }
+
+}
