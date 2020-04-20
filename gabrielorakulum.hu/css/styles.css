@@ -790,3 +790,57 @@ h3.white2 {
 	display:block;
 	text-align:center;
 }
+
+.accordion-wrapper {
+	display: block;
+    float: left;
+    width: 100%;
+    margin-top: 28px;
+}
+
+.accordion {
+	background-color: #e6f6f9;
+	color: #10222b;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	transition: 0.4s;
+	font-family: 'ralewayextrabold';
+	font-size:1.125rem;
+  }
+  
+.active, .accordion:hover {
+	background-color: rgb(194, 217, 221);
+}
+
+.panel {
+	padding: 0 18px;
+	background-color: #fff;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+	content: '\02795'; /* Unicode character for "plus" sign (+) */
+	font-size: 13px;
+	color: #cadce0;
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.accordion-list {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.lighttext {
+	color: #0b8793;	  
+}
